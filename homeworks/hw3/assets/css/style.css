@@ -36,8 +36,8 @@ top and bottom, 30 for the left and right*/
     margin-left: 5px;
 } */
 
-#item{
-    margin-right: 10px;
+.item{
+    margin: 5px;
 }
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
