@@ -3,14 +3,16 @@ body {
     padding: 0;
     font-family: 'Karla';
     height: 100%;
+    /* min-height:700px; */
+    background-image: url("../../assets/img/bg2.png")
 }
 
 .logo {
     height: 75px;
     display: inline-flex;
     align-content: center;
-    margin-left: 16px;
-    margin-top: 12px;
+    margin-left: 40px;
+    margin-top: 18px;
 }
 
 .nav {
@@ -23,7 +25,8 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 40px 16px;
+    margin: 50px 5px;
+    margin-right: 40px;
     font-size: 22px;
     font-family: 'Karla';
     font-variant-caps: all-small-caps;
@@ -49,25 +52,28 @@ h1 {
     text-align: center;
 }
 
-.hp {
+.hometitle {
     display: block;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-}
-.g1 {
-    padding-top: 180px;
-    padding-bottom: 180px;
 }
 
-.t1{
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0;
+    vertical-align: center;
+}
+
+.homep{
     display: block;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    width: 38%
+    padding-bottom: 20px;
+    width: 32%
 }
 
 .button {
@@ -93,4 +99,42 @@ h1 {
 
 a {
     text-decoration: none;
+}
+
+.footer {
+    position: absolute; 
+    bottom: 0; 
+    margin-bottom: 0px;
+    width: 100%;
+    height:110px;
+    padding-top:16px;
+    padding-bottom: 0px;
+    background: #550000;
+    font-family: 'Karla';
+    display: inline-block;
+}
+
+.left{
+    text-align:left;
+    float:left;
+    color: white;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 18px;
+}
+
+.right{
+    float:right;
+    text-align:right;
+    color: white;
+    font-size: 14px;
+    padding-right: 50px;
+    line-height: 18px;
+}
+
+.centered{
+    text-align:center;
+    font-size: 14px;    
+    color: white;
+    line-height: 18px;
 }
