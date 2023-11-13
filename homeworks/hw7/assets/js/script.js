@@ -13,9 +13,9 @@ function getRandomNum(max) {
     return Math.floor(Math.random() * max);
 }
 
-let x = getRandomNum(100);
-let y = getRandomNum(100);
-let z = getRandomNum(100);
+let x = getRandomNum(20);
+let y = getRandomNum(10);
+let z = getRandomNum(13);
 
 let avg = averageThreeNumbers(x, y, z);
 
